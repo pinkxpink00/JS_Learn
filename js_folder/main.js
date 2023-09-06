@@ -1,2 +1,3 @@
-document.write("<h2>Hello, it's my first program on JS</h2>"); //MAIN TEXT
-document.write("Hello WORLD"); //DEFAULT TEXT
+const sum = 5+2;
+console.log("Result");
+console.log(sum);
