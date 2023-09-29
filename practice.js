@@ -1,17 +1,6 @@
-var i,out;
+const num1 = "53";
+const num2 = 3;
 
-out = pow(2,2);
-console.log(out);
+const res = num1 + num2;
 
-out = pow(5,5);
-console.log(out);
-
-function pow(base,power)
-{
-    result = 1;
-    for (i=0;i<power;i++)
-    {
-        result *= base;
-    }
-    return result;
-}
+console.log(res);
