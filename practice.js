@@ -21,7 +21,7 @@ const digitArray = myArray[5] = 3;
 console.log(digitArray);
 
 
-var income = 234;
+var income = 2200;
 
 if(income > 5)
 {
@@ -34,4 +34,24 @@ else if(income === 234)
 else
 {
     console.log("доход меньше 50...")
+}
+
+
+switch(income)
+{
+    case 100:
+        console.log(100);
+        break;
+        
+        case 200:
+            console.log(200);
+            break;
+
+            case 300:
+                console.log(300);
+                break;
+
+                default:
+                    console.log(`undefined`)
+                    break;
 }
