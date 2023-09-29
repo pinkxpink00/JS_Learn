@@ -19,3 +19,19 @@ console.log(myArray);
 console.log(myArray[1],myArray[0],myArray[2])
 const digitArray = myArray[5] = 3;
 console.log(digitArray);
+
+
+var income = 234;
+
+if(income > 5)
+{
+    console.log(`доход больше 50...`)
+}
+else if(income === 234)
+{
+    console.log(`доход равен: ${income}`)
+}
+else
+{
+    console.log("доход меньше 50...")
+}
