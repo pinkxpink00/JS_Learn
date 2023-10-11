@@ -54,7 +54,7 @@ switch(income)
                 default:
                     console.log(`undefined`)
                     break;
-}*/
+}
 
 const numbers = [5,3,6,2,5,1];
 
@@ -70,4 +70,16 @@ for(let i=0; i<numbers.length-1;i++)
     }
 }
 
-console.log("numbers:",numbers);
+console.log("numbers:",numbers);*/
+
+function SayHello()
+{
+    console.log("Hello Console");
+    SayBye();
+    SayBye();
+
+    function SayBye(){
+        console.log("Bye")
+    }
+}
+SayHello();
