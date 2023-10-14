@@ -70,7 +70,7 @@ for(let i=0; i<numbers.length-1;i++)
     }
 }
 
-console.log("numbers:",numbers);*/
+console.log("numbers:",numbers);
 
 function SayHello()
 {
@@ -82,4 +82,22 @@ function SayHello()
         console.log("Bye")
     }
 }
-SayHello();
+SayHello();*/
+
+function Print(message)
+{
+    console.log(message)
+}
+
+Print("hello world");
+Print("bimba");
+Print("Hi-Bye");
+
+function Math(a,b){
+    const res = a+b
+    console.log(res);
+}
+
+Math(2,4);
+Math(34,55);
+
