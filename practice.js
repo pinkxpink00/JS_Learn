@@ -82,7 +82,7 @@ function SayHello()
         console.log("Bye")
     }
 }
-SayHello();*/
+SayHello();
 
 function Print(message)
 {
@@ -100,4 +100,35 @@ function Math(a,b){
 
 Math(2,4);
 Math(34,55);
+
+function printPerson(username,age,email)
+{
+    console.log("Name:",username);
+    console.log("Age:",age);
+    console.log("Email:",email);
+}
+
+const tom = ["Tom",32,"tom@ex.com"];
+const bob = ["Bob",44,"bob@ex.com"];
+
+printPerson(...tom);
+printPerson(...bob);*/
+
+function Substract(x,y)
+{
+    return x-y;
+}
+function Sum(x,y)
+{
+    return x+y;
+}
+
+function Operation(x,y,func)
+{
+    const res = func(x,y);
+    console.log(res);
+}
+
+console.log("Sum");
+Operation(3,5,Sum);
 
